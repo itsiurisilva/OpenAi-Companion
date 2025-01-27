@@ -26,6 +26,9 @@ This Python application allows you to toggle the ChatGPT voice assistant using a
    1. Download the ADB platform tools (ABOVE)
    2. Extract the tools and add the **directory** to your system's **PATH** for global access.
 
+  ### 3. Connect your Android Device via USB
+   1. Run: adb device (To make sure is Detected)
+
 ## How to Use
 1. Clone the repository:
    ```bash
