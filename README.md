@@ -33,7 +33,12 @@ This Python application allows you to toggle the ChatGPT voice assistant using a
 2. Install the required Python modules:
    ```bash
    pip install pynput pystray Pillow
-3. Run the script:
+3. Edit the script Path:
+   ```bash
+   Edit OpenAi_Companion.py at:
+    on_icon_path = r"C:\Users\YOUR_USER\Icon\chatgpt-on.png"
+    off_icon_path = r"C:\Users\YOUR_USER\Icon\chatgpt.png"
+4. Run the script:
    ```bash
     python OpenAi_Companion.py
 
